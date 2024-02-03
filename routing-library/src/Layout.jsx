@@ -8,7 +8,7 @@ export default function Layout() {
   return (
    <>
       <Header />
-      <Outlet />
+      <Outlet /> {/* Outlet is for Dynamically Changing Component  */}
       <Footer />
    </>
   )
